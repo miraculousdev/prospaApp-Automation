@@ -1,0 +1,13 @@
+{
+"baseUrl":"https://staging.getprospa.co",
+"defaultCommandTimeout": 10000,
+"pageLoadTimeout":600000,
+"viewportHeight":800,
+"viewportWidth":1500,
+
+"reporter": "mocha-junit-reporter",
+"reporterOptions": {
+    "mochaFile":"cypress/reports/junit/test-result.[hash].xml",
+    "testsuitestTitle": false
+}
+}
