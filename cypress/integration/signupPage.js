@@ -32,4 +32,9 @@ describe("Prospa login test", function () {
        
         
     });
+    
+     afterEach(function(){
+        cy.close()
+    });
+    
 });
